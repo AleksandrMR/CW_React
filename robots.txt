@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-agent: YandexBot
+Disallow:
+Host: https://amdevapp.netlify.app
+Sitemap: https://amdevapp.netlify.app/sitemap.xml

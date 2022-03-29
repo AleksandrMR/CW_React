@@ -1,0 +1,56 @@
+body.modal-isActive {
+overflow-y: hidden;
+}
+
+.popup, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 99;
+}
+
+.overlay {
+    background: var(--color-primary-variant);
+}
+
+.popup__content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: var(--color-bg2);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    z-index: 100;
+}
+
+.messageBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+
+.messageBox h2 {
+    color: var(--color-primary);
+}
+
+.messageBox small {
+    color: var(--color-light);
+}
+
+.popup__check-icon {
+    font-size: 4rem;
+    color: greenyellow;
+    margin: 1rem;
+}
+
+.buttonBox {
+    margin-top: 1rem;
+    padding: 1rem;
+}
